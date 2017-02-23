@@ -1,0 +1,61 @@
+body {
+    background: black;
+    background-image: url(http://orig13.deviantart.net/fb8c/f/2009/132/4/3/background_gradient_dark_green_by_gds70.jpg);
+}
+
+.row {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+}
+
+@keyframes fall {
+    0% {
+        margin-top: 0px;
+    }
+    25% {
+        margin-top:150px;
+    }
+    50% {
+        margin-top: 300px;
+    }
+    75% {
+        margin-top: 450px;
+    }
+    100% {
+        margin-top: 600px;
+    }
+}
+.color{
+    background: aqua;
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+}
+.frst {
+    animation: fall .2s linear infinite;
+}
+
+.scnd {
+    animation: fall .3s linear infinite;
+}
+
+.thrd {
+    animation: fall .4s linear infinite;
+}
+
+.frth {
+    animation: fall .5s linear infinite;
+}
+
+.ffth {
+    animation: fall .6s linear infinite;
+}
+
+.sxth {
+    animation: fall .7s linear infinite;
+}
+
+.svnth {
+    animation: fall .8s linear infinite;
+}
